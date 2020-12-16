@@ -14,6 +14,20 @@
             "Type": "SecretTextBox"
           },
           {
+              "Name": "Gender",
+              "Options":[
+                  {
+                      "DisplayValue": "Male",
+                      "Value" : "male"
+                  },
+                  {
+                      "DisplayValue": "Female",
+                      "Value":"female"
+                  }
+              ],
+              "Type":"RadioButton"
+          },
+          {
             "DropdownValue": [
               {
                 "DisplayValue": "Guest",
