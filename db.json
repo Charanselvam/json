@@ -1,5 +1,5 @@
 {
-    "form": {
+    
         "form_heading": "Contact Form",
         "ActionDisplayName": "Login",
         "Attributes": [
@@ -42,5 +42,5 @@
             "Type": "Dropdown"
           }
         ]
-      }
+      
 }
