@@ -1,7 +1,7 @@
 {
    "form": {
     "form_heading": "Contact Form",
-    "ActionDisplayName": "Login",
+    "ActionDisplayName": "Submit",
     "Attributes": [
       {
         "Name": "Username",
