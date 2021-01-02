@@ -1,6 +1,6 @@
 {
     "form": {
-        "form_heading": "Contact Form",
+        "form_heading": "A web page rendering",
         "ActionDisplayName": "Login",
         "Attributes": [
           {
@@ -13,7 +13,26 @@
             "Size": "10",
             "Type": "SecretTextBox"
           },
-         
+          {
+            "Name": "email",
+            "Size": "10",
+            "Type": "email"
+          },
+          
+          {
+              "Name": "Gender",
+              "Options":[
+                  {
+                      "DisplayValue": "Male",
+                      "Value" : "male"
+                  },
+                  {
+                      "DisplayValue": "Female",
+                      "Value":"female"
+                  }
+              ],
+              "Type":"RadioButton"
+          },
           {
             "DropdownValue": [
               {
@@ -31,5 +50,3 @@
         ]
       }
 }
-
-
